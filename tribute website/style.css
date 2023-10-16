@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: rgb(228, 228, 247);
+    min-height: 100vh;
+    border: 10px solid black;
+}
+
+.tps h1 {
+    font-size: 55px;
+    font-weight: bolder;
+    color: black;
+    text-transform: uppercase;
+}
+
+.tps h4 {
+    text-align: end;
+    /* is se date last m aa jaye gi name ke */
+    font-size: 10px;
+}
+
+.content {
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.image {
+    border-radius: 45%;
+    overflow: hidden;
+}
+
+.image,
+img {
+    width: 300px;
+    height: 320px;
+}
+
+.tps {
+    margin-top: 100px;
+    display: flex;
+
+    align-items: flex-end;
+    /* is se bottom m aye ge name or date */
+}
+
+.about {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.about p {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1.2px;
+}
+
+footer p {
+    text-align: end;
+}
